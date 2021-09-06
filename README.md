@@ -21,6 +21,8 @@ Substituting the current search method with a learning method (maybe explore dif
 Carry out different sensitivity analysis on how tuning the utility network parameters affects behavior. For example, what happens when we associate more direct utility to money (we probably buy less products, save more, spend more time working, our health and energy reduce, etc.)
 Create multi-agent scenarios with limited resources that agents are competing for and see how behavior changes.
 
+
+
 ## End goal
 
 The idea is to create a model of a society  (that would be simulated) that is representative of the way that humans interact with each other and with other institutions such as enterprises and governments. Such simulation would have different types of agents on it with different reward functions. Example:
