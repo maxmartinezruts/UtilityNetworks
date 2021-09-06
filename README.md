@@ -7,11 +7,11 @@ Utility networks consist of networks of goods (each with its own utility functio
 
 ![](utility_network.gif)
 
-The utility network parameters define the functions that describe how the different goods and actions are related. E.g how much money does working generate, how much money does food cost, how much utility is associated to food, etc. These parameters are currently handcrafted but the idea is to use different optimization methods to tune the parameters such that the behavior that emerges from the agent (sequence of actions taken) is as representative as possible to human behavior. I propose the following methods to 
-- Use genetic algorithms instantiating multiple agents and evaluating them on a fitness score that is higher when their behavior is more similar to human behavior (acessed by humans)
-- Use an alternative supervised learning method to mimic human behavior based on the utility network (TBD)
+The utility network parameters define the functions that describe how the different goods and actions are related. E.g how much money does working generate, how much money does food cost, how much utility is associated to food, etc. These parameters are currently handcrafted but the idea is to use different optimization methods to tune the parameters such that the behavior that emerges from the agent (sequence of actions taken) is as representative as possible to human behavior. This could be done by:
+- Using genetic algorithms instantiating multiple agents and evaluating them on a fitness score that is higher when their behavior is more similar to human behavior (acessed by humans)
+- Using an alternative supervised learning method to mimic human behavior based on the utility network (TBD)
 
-
+  <img src="payoff_matrix_mixed_equilibrium.PNG" width="227" alt="accessibility text">
 
 Creating a toy example of a utility network on a simple agent 
 Applying a search method to find the best action considering a limited time horizon (Model Predictive Control)
