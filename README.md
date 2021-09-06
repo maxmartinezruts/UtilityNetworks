@@ -26,7 +26,7 @@ Create multi-agent scenarios with limited resources that agents are competing fo
 
 
 
-  <img src="goods_evolution.JPG" width="400" alt="accessibility text">
+  <img src="goodsevolution.JPG" width="400" alt="accessibility text">
 
 
 ## End goal
