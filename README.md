@@ -7,11 +7,14 @@ Utility networks consist of networks of goods (each with its own utility functio
 
 ![](utility_network.gif)
 
+One can theefore use an RL method to find optimal policies to maximize long-term accumulated utility. The current approach to do that is using a search method based on Model Predictive Control (see picture below) that finds the best immediate action considering a limited time horizon. This method serves well to demonstrate the potential of utility networks but since it is not learning over time it is not capable of finding long-term sequences of actions that lead to high utility. 
+
+  <img src="MPC_diagram.png" width="400" alt="accessibility text">
+
 The utility network parameters define the functions that describe how the different goods and actions are related. E.g how much money does working generate, how much money does food cost, how much utility is associated to food, etc. These parameters are currently handcrafted but the idea is to use different optimization methods to tune the parameters such that the behavior that emerges from the agent (sequence of actions taken) is as representative as possible to human behavior. This could be done by:
 - Using genetic algorithms instantiating multiple agents and evaluating them on a fitness score that is higher when their behavior is more similar to human behavior (acessed by humans)
 - Using an alternative supervised learning method to mimic human behavior based on the utility network (TBD)
 
-  <img src="MPC_diagram.png" width="400" alt="accessibility text">
 
 Creating a toy example of a utility network on a simple agent 
 Applying a search method to find the best action considering a limited time horizon (Model Predictive Control)
