@@ -26,6 +26,9 @@ Create multi-agent scenarios with limited resources that agents are competing fo
 
 
 
+  <img src="goods_evolution.JPG" width="400" alt="accessibility text">
+
+
 ## End goal
 
 The idea is to create a model of a society  (that would be simulated) that is representative of the way that humans interact with each other and with other institutions such as enterprises and governments. Such simulation would have different types of agents on it with different reward functions. Example:
